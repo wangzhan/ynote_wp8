@@ -3,7 +3,7 @@ ynote_wp8
 
 WP8的有道云笔记个人版，基于有道云笔记OpenAPI开发的，实现了用户笔记的离线查看。
 
-开发工具VS2012，开发语言C#，涉及SQLite数据库、OAuth1.0a认证、MVVM模式等。
+基于WP8 SDK，开发工具VS2012，开发语言C#，涉及SQLite数据库、OAuth1.0a认证、MVVM模式等。
 源码使用Apache许可证开源。
 
 该应用已发布至微软应用商店： 
