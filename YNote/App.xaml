@@ -1,0 +1,30 @@
+﻿<Application
+    x:Class="YNote.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:common="clr-namespace:YNote.Common">
+
+    <!--应用程序资源-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Common/CustomStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <sys:String x:Key="AppName">云笔记</sys:String>
+            <local:LocalizedStrings xmlns:local="clr-namespace:YNote" x:Key="LocalizedStrings"/>
+            <common:BooleanToVisibilityConverter x:Key="VisibilityConverter"/>
+            <common:DateTimeConverter x:Key="DateTimeConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--处理应用程序的生存期事件所需的对象-->
+        <shell:PhoneApplicationService
+            Launching="Application_Launching" Closing="Application_Closing"
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

@@ -1,0 +1,65 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="YNote.Views.SettingView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource CustomApplicationBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="{StaticResource AppName}" Foreground="{StaticResource CustomApplicationHeadBrush}"/>
+            <TextBlock Text="设置" Margin="20,0,0,0" Foreground="{StaticResource CustomGroupTitleBrush}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="12,12,12,12">
+            <TextBlock Text="账户信息" FontSize="30" Foreground="{StaticResource CustomGroupTitleBrush}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <TextBlock Text="用户名" FontSize="22" Foreground="{StaticResource CustomApplicationTextBrush}"/>
+                <TextBlock Text="{Binding Account}" Foreground="{StaticResource CustomApplicationDateBrush}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Margin="0,30,0,0">
+                <TextBlock Text="空间容量" FontSize="22" Foreground="{StaticResource CustomApplicationTextBrush}"/>
+                <TextBlock Text="{Binding CapacityInfo}" Foreground="{StaticResource CustomApplicationDateBrush}"/>
+                <!-- TODO: -->
+                <!--Button Content="清空缓存" Margin="11,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Click="btnClearCache_Click"/-->
+            </StackPanel>
+            <StackPanel Grid.Row="2" Margin="0,30,0,0">
+                <CheckBox Name="wifiCheckbox" Background="{StaticResource CustomApplicationBackgroundBrush3}"
+                          BorderBrush="{StaticResource CustomApplicationBackgroundButtonBorderBrush}" 
+                          Foreground="{StaticResource CustomApplicationTextBrush}" IsChecked="{Binding IsChecked, Mode=TwoWay}" 
+                          Click="OnClick">仅在WIFI网络下同步笔记 (强烈推荐) </CheckBox>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Margin="0,30,0,0">
+                <TextBlock Text="关于" FontSize="22" Foreground="{StaticResource CustomApplicationTextBrush}"/>
+                <TextBlock Text="{Binding About}" Height="120" TextWrapping="Wrap" Foreground="{StaticResource CustomApplicationDateBrush}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

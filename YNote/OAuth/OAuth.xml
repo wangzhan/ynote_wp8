@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+    <AppSettings>
+        <Setting key="AppKey" value="37e3f5d6dd95513d9cb7445d3ddb68ea"/>
+        <Setting key="AppSecret" value="47e6cf62eb8a0311a45c0db06d795a57"/>
+        <Setting key="CallBack" value="www.youdao.com"/>
+    </AppSettings>
+</Configuration>

@@ -1,0 +1,484 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../BackGround_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:30px;
+    top:10px;
+    width:384px;
+    height:640px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:390px;
+    height:646px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:312px;
+    width:380px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:44px;
+    top:38px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:147px;
+    top:40px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../NoteListAppBar_files/u32_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:30px;
+    top:570px;
+    width:384px;
+    height:80px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:390px;
+    height:86px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:380px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../NoteListAppBar_files/u34_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:92px;
+    top:580px;
+    width:60px;
+    height:60px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../NoteListAppBar_files/u34_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:183px;
+    top:580px;
+    width:60px;
+    height:60px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../NoteListAppBar_files/u34_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:276px;
+    top:580px;
+    width:60px;
+    height:60px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../NoteListAppBar_files/u40_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:348px;
+    top:580px;
+    width:60px;
+    height:60px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:19px;
+    width:56px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:148px;
+    top:18px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:126px;
+    top:11px;
+    width:160px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:55px;
+    top:94px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../Notebooks_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:48px;
+    top:150px;
+    width:180px;
+    height:36px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:42px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:55px;
+    top:150px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:55px;
+    top:170px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../Notebooks_files/u20_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:48px;
+    top:196px;
+    width:180px;
+    height:36px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:42px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:55px;
+    top:196px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:55px;
+    top:216px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../Notebooks_files/u20_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:48px;
+    top:251px;
+    width:180px;
+    height:36px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:42px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:55px;
+    top:251px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:55px;
+    top:271px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

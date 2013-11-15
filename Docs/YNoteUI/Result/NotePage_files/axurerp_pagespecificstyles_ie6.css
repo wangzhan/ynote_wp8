@@ -1,0 +1,35 @@
+﻿* html .u0_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="BackGround_files/u0_normal.png");
+}
+
+* html .u5_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NotePage_files/u5_line.png");
+}
+
+* html .u7_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NotePage_files/u7_normal.png");
+}
+
+* html .u9_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NotePage_files/u9_normal.png");
+}
+
+* html .u11_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NoteAppBar_files/u11_normal.png");
+}
+
+* html .u13_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NoteAppBar_files/u13_normal.png");
+}
+
+* html .u15_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="NoteAppBar_files/u15_normal.png");
+}
+

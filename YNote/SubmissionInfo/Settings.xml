@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>appicon_300X300.png</SmallAppTile>
+  <ScreenShots>login_wvga.png;oauth_wvga.png;oauth2_wvga.png;note_wvga.png;note_content_wvga.png;setting_wvga.png;;;</ScreenShots>
+  <ScreenShotsWXGA>login_wxga.png;oauth_wxga.png;oauth2_wxga.png;note_wxga.png;note_content_wxga.png;setting_wxga.png;;;</ScreenShotsWXGA>
+  <ScreenShots720P>login_720p.png;notebook_720p.png;note_content_720p.png;note_720p.png;setting_720p.png;;;;</ScreenShots720P>
+</MarketplaceDetails>
